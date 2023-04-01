@@ -1,0 +1,66 @@
+{
+  "Version": "22.04",
+  "OEM": {
+    "Vendor": "VMware, Inc.",
+    "Product": "VMware Virtual Platform",
+    "Family": ""
+  },
+  "BIOS": {
+    "Vendor": "Phoenix Technologies LTD",
+    "Version": "6.00"
+  },
+  "Arch": "amd64",
+  "HwCap": "x86-64-v3",
+  "GPU": [
+    {
+      "Vendor": "15ad",
+      "Model": "0405"
+    }
+  ],
+  "RAM": 2,
+  "Disks": [
+    16.1
+  ],
+  "Partitions": [
+    14.9,
+    0.5,
+    0.1
+  ],
+  "Screens": [
+    {
+      "Size": "0mmx0mm",
+      "Resolution": "1392x788",
+      "Frequency": "59.99"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "wayland"
+  },
+  "Language": "en_US",
+  "Timezone": "America/Araguaina",
+  "Install": {
+    "Media": "Ubuntu 22.04 LTS \"Jammy Jellyfish\" - Release amd64 (20220419)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "use_device",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "4": "console_setup",
+      "9": "prepare",
+      "159": "partman",
+      "162": "start_install",
+      "179": "timezone",
+      "482": "usersetup",
+      "530": "user_done",
+      "2681": "done"
+    }
+  }
+}
