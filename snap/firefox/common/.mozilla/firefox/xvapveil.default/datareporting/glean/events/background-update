@@ -1,1 +1,0 @@
-{"timestamp":192553,"category":"nimbus_events","name":"enrollment","extra":{"experiment_type":"rollout","enrollment_id":"9963a1b0-71a9-4c48-829c-85e1fd16f2e7","experiment":"enrollment-volume-debugging","branch":"control"}}
